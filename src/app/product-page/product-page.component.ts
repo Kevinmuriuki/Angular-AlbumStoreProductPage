@@ -10,6 +10,8 @@ import { ProductService } from '../product.service';
 })
 export class ProductPageComponent implements OnInit {
 
+  albumInfo: Album;
+
   constructor() { }
 
   ngOnInit() {
