@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { inject } from '@angular/core/src/render3';
 
 import { ProductService } from '../product.service';
+import { Album } from '../album';
 
 @Component({
   selector: 'app-product-description',
