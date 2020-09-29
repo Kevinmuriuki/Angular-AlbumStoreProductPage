@@ -1,3 +1,5 @@
+import './track';
+
 export interface Album {
   name: string,
   releaseData: string,
