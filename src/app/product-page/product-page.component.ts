@@ -12,9 +12,10 @@ export class ProductPageComponent implements OnInit {
 
   albumInfo: Album;
 
-  constructor() { }
+  constructor(private _productService) { }
 
   ngOnInit() {
+    this._productService.getAlbum(1).subscribe(response => this.albumInfo = response);
   }
 
 }
